@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <div class="container">
@@ -28,11 +30,7 @@
 
       <!-- SEARCH -->
       <div class="top-bar glass">
-        <input
-          type="text"
-          id="searchInput"
-          placeholder="Search music..."
-        >
+        <input type="text" id="searchInput" placeholder="Search music...">
       </div>
 
       <!-- ARTISTS -->
@@ -44,8 +42,7 @@
 
         <div class="artists">
 
-          <div class="artist-card"
-            onclick="searchSongs('pritam')">
+          <div class="artist-card" onclick="searchSongs('pritam')">
 
             <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca">
 
@@ -54,32 +51,52 @@
           </div>
 
           <div class="artist-card"
-            onclick="searchSongs('arijit singh')">
+           onclick="searchSongs('arijit singh')">
 
-            <img src="https://i.scdn.co/image/ab6761610000e5ebfc043bea91ac91c222d235c9">
-
+            <img src="asserts/arjitsing.png">
             <h3>Arijit Singh</h3>
             <p>Artist</p>
           </div>
 
-          <div class="artist-card"
-            onclick="searchSongs('atif aslam')">
+          <div class="artist-card" onclick="searchSongs('atif aslam')">
 
-            <img src="https://i.scdn.co/image/ab6761610000e5eb8f6d4c8df1f0e4c9d7d8f4c0">
-
+            <img src="asserts/atifaslam.png">
             <h3>Atif Aslam</h3>
             <p>Artist</p>
           </div>
 
-          <div class="artist-card"
-            onclick="searchSongs('weeknd')">
+          <div class="artist-card" onclick="searchSongs('weeknd')">
 
             <img src="https://i.scdn.co/image/ab6761610000e5eb214f3cf1cbe7139c1e26ffbb">
 
             <h3>The Weeknd</h3>
             <p>Artist</p>
           </div>
-
+          <div class= "artist-card"  onclick="searchSongs('BTS')">
+            <img src="asserts/bts.png" alt="BTS image">
+            <h3>BTS</h3>
+            <p>Artist</p>
+          </div>
+          <div class= "artist-card"  onclick="searchSongs('Drake')">
+            <img src="asserts/drake.png" alt="drake image">
+            <h3>drake </h3>
+            <p>Artist</p>
+          </div>
+          <div class= "artist-card"  onclick="searchSongs('justin bieber')">
+            <img src="asserts/justib.png" alt="justin image">
+            <h3>justin bieber</h3>
+            <p>Artist</p>
+          </div>
+          <div class= "artist-card"  onclick="searchSongs('michael jackson')">
+            <img src="asserts/micheal.png" alt="michael jackson image">
+            <h3>michael jackson</h3>
+            <p>Artist</p>
+          </div>
+            <div class= "artist-card"  onclick="searchSongs('selena gomez')">
+            <img src="asserts/salena.png" alt="selena gomez image">
+            <h3>selena gomez</h3>
+            <p>Artist</p>
+          </div>
         </div>
 
       </section>
@@ -96,10 +113,7 @@
 
     <div class="song-info">
 
-      <img
-        id="player-img"
-        src="https://via.placeholder.com/60"
-      >
+      <img id="player-img" src="https://via.placeholder.com/60">
 
       <div>
         <h4 id="player-title">No Song Playing</h4>
@@ -115,7 +129,8 @@
 
   </footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
+
 </html>
