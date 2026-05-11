@@ -1,3 +1,4 @@
+
 # music player 
 
 A modern Spotify-inspired music player built using HTML, CSS, and JavaScript.
@@ -30,6 +31,8 @@ This project uses the iTunes API to dynamically fetch songs, display artists, an
 - iTunes Search API
 
 ---
+preview
+<img width="1900" height="915" alt="Screenshot 2026-05-05 151225" src="https://github.com/user-attachments/assets/cfdcc47d-a0b5-4459-b2cc-71a072f0e69d" />
 
 ## Project Structure
 
