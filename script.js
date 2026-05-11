@@ -99,7 +99,7 @@ function displaySongs(songs){
 
       favorites.push(song);
 
-      alert("Added To Favorites ❤️");
+      //alert("Added To Favorites ");
 
       console.log(favorites);
 
